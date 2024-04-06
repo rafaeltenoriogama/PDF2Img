@@ -1,0 +1,70 @@
+.container {
+    width: 610px;
+    /* largura desejada para o container */
+    margin: 0 auto;
+    /* centraliza o container horizontalmente */
+    padding: 1px;
+    /* espaço interno */
+    border: 1px solid #ccc;
+    /* borda sólida */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* sombra aumentada */
+    /* sombra */
+    height: 790px;
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    justify-content: center;
+    /* centraliza verticalmente */
+}
+
+.container img {
+    width: 100%; /* imagem ocupa 100% da largura do contêiner */
+    height: 600px; /* altura ajustável para manter proporção */
+    object-fit: contain; /* redimensiona a imagem para caber dentro do contêiner mantendo a proporção */
+    margin: 0; /* remove a margem padrão */
+}
+
+
+.background {
+    order: -1;
+}
+
+.container>* {
+    margin: 10px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons .converter-button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid #2a2c2e;
+    font-weight: bold;
+    font-size: small;
+}
+
+.buttons .browse {
+    display: none;
+    /* Oculta o input file */
+}
+
+.buttons .browse-label {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid #2a2c2e;
+    font-weight: bold;
+    font-size: small;
+    cursor: pointer;
+}
+
+h2 {
+    text-align: center;
+}
