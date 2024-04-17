@@ -1,4 +1,4 @@
-## PDF para PNG Converter usando Django Web Framework
+## Conversor de arquivos PDF para PNG usando Django Web Framework
 
 Este é um simples software desenvolvido em Python usando o Django Web Framework, que permite transformar arquivos PDF em imagens PNG.
 
@@ -11,9 +11,9 @@ Facilidade de instalação e execução.
 
 ## Requisitos de Instalação
 
-    Python 3.x
-    Django
-    pdftoppm (para conversão de PDF para imagens)
+Python 3.x
+Django
+PDF2IMG (para conversão de PDF para imagens)
 
 ## Estrutura do Django
 
@@ -45,20 +45,18 @@ O Django segue uma estrutura de projeto MVC (Model-View-Controller) ou MVT (Mode
     ├── db.sqlite3             # Banco de dados SQLite
     └── manage.py              # Utilitário de linha de comando para administração do projeto
 
-pdf_to_png_converter/: Diretório principal do projeto.
-pdf_to_png_converter/: O diretório contém as configurações do projeto Django.
-converter/: O aplicativo principal do projeto.
-migrations/: Diretório que contém migrações de banco de dados.
-templates/: Diretório que contém os modelos HTML.
-views.py: Contém a lógica de visualização (controlador).
-models.py: Define os modelos de dados (Model).
-forms.py: Contém os formulários do aplicativo.
-admin.py: Configurações para a interface de administração do Django.
+**`pdf_to_png_converter/:`** Diretório principal do projeto.
+**`pdf_to_png_converter/:`** O diretório contém as configurações do projeto Django.
+**`converter/:`** O aplicativo principal do projeto.
+**`templates/:`** Diretório que contém os modelos HTML.
+**`views.py:`** Contém a lógica de visualização (controlador).
+**`models.py:`** Define os modelos de dados (Model).
+**`forms.py:`** Contém os formulários do aplicativo.
+**`admin.py:`** Configurações para a interface de administração do Django.
 
-Como Usar
+## Como Usar
 
-Clone este repositório: git clone https://github.com/seu-usuario/pdf_to_png_converter.git
-Instale os requisitos: pip install -r requirements.txt
-Execute as migrações do banco de dados: python manage.py migrate
-Inicie o servidor: python manage.py runserver
-Acesse a aplicação em seu navegador: http://localhost:8000
+Clone este repositório: git clone https://github.com/rafaeltenoriogama/PDF2IMG.git
+Instale os requisitos: `pip install -r requirements.txt`
+Inicie o servidor: `python manage.py runserver`
+Acesse a aplicação em seu navegador: http://localhost:8000 ou http://127.0.0.1:8000
