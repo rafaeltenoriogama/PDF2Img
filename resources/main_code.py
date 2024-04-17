@@ -1,3 +1,6 @@
+# Base da construção do nosso software
+# Arquivo curto em python para conversão de PDF em imagem utilizando PDF2Image library. 
+
 from pdf2image import convert_from_path
 import os
 
